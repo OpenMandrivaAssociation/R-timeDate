@@ -11,10 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-graphics R-utils R-stats R-methods 
-Requires:         R-RUnit 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graphics R-utils R-stats R-methods
-BuildRequires:    R-RUnit 
+Requires:         R-graphics R-utils R-stats R-methods R-RUnit
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-graphics R-utils R-stats R-methods R-RUnit
 
 %description
 Environment for teaching "Financial Engineering and Computational Finance"
