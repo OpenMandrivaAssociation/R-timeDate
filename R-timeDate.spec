@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2131.00
-Release:          1
+Release:          2
 Summary:          Rmetrics - Chronological and Calendarical Objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
