@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          2131.00
-Release:          2
+Version:          3010.98
+Release:          1
 Summary:          Rmetrics - Chronological and Calendarical Objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/timeDate_3010.98.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-graphics R-utils R-stats R-methods 
@@ -51,4 +51,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775348
 - Import R-timeDate
 - Import R-timeDate
+
 
